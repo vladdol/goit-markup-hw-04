@@ -27,34 +27,33 @@
   <body>
     <!-- Шапка -->
     <header>
-      <div class="container">
+      <div class="container head-container">
         <nav class="nav">
           <!-- Лого -->
-          <a href="./"><span>Web</span>Studio</a>
+          <a class="logo" href="./"><span>Web</span>Studio</a>
 
           <!-- Навигация -->
-          <div class="nav-links">
-            <ul>
-              <li><a href="./">Студія</a></li>
-              <li><a href="./portfolio.html">Портфоліо</a></li>
-              <li><a href="./">Контакти</a></li>
-            </ul>
-          </div>
+          <ul class="nav-links">
+            <li><a href="./">Студія</a></li>
+            <li><a class="active" href="./portfolio.html">Портфоліо</a></li>
+            <li><a href="./">Контакти</a></li>
+          </ul>
         </nav>
 
         <!-- Контакты в шапке -->
         <div class="header-contact">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="active" href="mailto:info@devstudio.com">info@devstudio.com</a>
           <a href="tel:+380961111111">+38 096 111 11 11</a>
         </div>
       </div>
     </header>
+
+    <!-- Фильтр -->
     <main>
-      <!-- Фильтр -->
       <section class="filter">
         <div class="container">
           <ul class="filter-buttons">
-            <li><button type="button">Усі</button></li>
+            <li><button class="active" type="button">Усі</button></li>
             <li><button type="button">Веб-сайти</button></li>
             <li><button type="button">Додатки</button></li>
             <li><button type="button">Дизайн</button></li>
@@ -63,12 +62,12 @@
         </div>
 
         <!-- Список Фильтров -->
-        <div class="fiter-type">
+        <div class="filter-type">
           <div class="container">
             <ul>
               <li>
                 <a href="">
-                  <img src="./images/portfolio/img.jpg" alt="Технокряк" width="370"/>
+                  <img src="./images/portfolio/img.jpg" alt="Технокряк" width="370" />
                   <div class="filtre-title">
                     <h3>Технокряк</h3>
                     <p>Веб-сайт</p>
@@ -77,7 +76,11 @@
               </li>
               <li>
                 <a href="">
-                  <img src="./images/portfolio/img1.jpg" alt="Постер New Orlean vs Golden Star" width="370"/>
+                  <img
+                    src="./images/portfolio/img1.jpg"
+                    alt="Постер New Orlean vs Golden Star"
+                    width="370"
+                  />
                   <div class="filtre-title">
                     <h3>Постер <span lang="en">New Orlean vs Golden Star</span></h3>
                     <p>Дизайн</p>
@@ -86,7 +89,7 @@
               </li>
               <li>
                 <a href="">
-                  <img src="./images/portfolio/img2.jpg" alt="Ресторан Seafood" width="370"/>
+                  <img src="./images/portfolio/img2.jpg" alt="Ресторан Seafood" width="370" />
                   <div class="filtre-title">
                     <h3>Ресторан <span lang="en">Seafood</span></h3>
                     <p>Додаток</p>
@@ -95,7 +98,7 @@
               </li>
               <li>
                 <a href="">
-                  <img src="./images/portfolio/img3.jpg" alt="Проєкт Prime" width="370"/>
+                  <img src="./images/portfolio/img3.jpg" alt="Проєкт Prime" width="370" />
                   <div class="filtre-title">
                     <h3>Проєкт <span lang="en">Prime</span></h3>
                     <p>Маркетинг</p>
@@ -104,7 +107,7 @@
               </li>
               <li>
                 <a href="">
-                  <img src="./images/portfolio/img4.jpg" alt="Проєкт Boxes" width="370"/>
+                  <img src="./images/portfolio/img4.jpg" alt="Проєкт Boxes" width="370" />
                   <div class="filtre-title">
                     <h3>Проєкт <span lang="en">Boxes</span></h3>
                     <p>Додаток</p>
@@ -113,7 +116,11 @@
               </li>
               <li>
                 <a href="">
-                  <img src="./images/portfolio/img5.jpg" alt="Inspiration has no Borders" width="370"/>
+                  <img
+                    src="./images/portfolio/img5.jpg"
+                    alt="Inspiration has no Borders"
+                    width="370"
+                  />
                   <div class="filtre-title">
                     <h3><span lang="en">Inspiration has no Borders</span></h3>
                     <p>Веб-сайт</p>
@@ -122,7 +129,11 @@
               </li>
               <li>
                 <a href="">
-                  <img src="./images/portfolio/img6.jpg" alt="Видання Limited Edition" width="370"/>
+                  <img
+                    src="./images/portfolio/img6.jpg"
+                    alt="Видання Limited Edition"
+                    width="370"
+                  />
                   <div class="filtre-title">
                     <h3><span lang="en">Видання Limited Edition</span></h3>
                     <p>Дизайн</p>
@@ -131,7 +142,7 @@
               </li>
               <li>
                 <a href="">
-                  <img src="./images/portfolio/img7.jpg" alt="Проєкт LAB" width="370"/>
+                  <img src="./images/portfolio/img7.jpg" alt="Проєкт LAB" width="370" />
                   <div class="filtre-title">
                     <h3>Проєкт <span lang="en">LAB</span></h3>
                     <p>Маркетинг</p>
@@ -140,7 +151,7 @@
               </li>
               <li>
                 <a href="">
-                  <img src="/images/portfolio/img8.jpg" alt="Growing Business" width="370"/>
+                  <img src="/images/portfolio/img8.jpg" alt="Growing Business" width="370" />
                   <div class="filtre-title">
                     <h3><span lang="en">Growing Business</span></h3>
                     <p>Додаток</p>
@@ -155,10 +166,10 @@
     <!-- Футер -->
     <footer>
       <div class="container">
-        <a href="./"><span>Web</span>Studio</a>
+        <a class="logo" href="./"><span>Web</span><span class="logo-clr-two">Studio</span></a>
         <address>
           <ul>
-            <li><a href="">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li><a class="active" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
             <li><a href="">info@devstudio.com</a></li>
             <li><a href="">+38 096 111 11 11</a></li>
           </ul>
