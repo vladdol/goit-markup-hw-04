@@ -128,7 +128,6 @@ header {
 .smartphone-header {
   display: flex;
   align-items: center;
-
 }
 
 .envelope-header,
@@ -146,8 +145,7 @@ header {
 
 /* Герой */
 .hero {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   background-repeat: no-repeat;
 
   max-width: 1600px;
@@ -326,7 +324,6 @@ ul.works-pic {
   margin: 0;
 }
 
-
 /* Иконки компнды */
 .team-icons {
   display: flex;
@@ -495,8 +492,6 @@ footer .icon-part {
   cursor: pointer;
 }
 
-
-
 .filter-buttons button:hover,
 .filter-buttons button:focus {
   color: var(--bg-color);
@@ -508,7 +503,7 @@ footer .icon-part {
 .filter-buttons .active {
   color: var(--bg-color);
   background-color: var(--accent-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
