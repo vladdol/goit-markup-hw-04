@@ -147,7 +147,7 @@ header {
 /* Герой */
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/Hero.jpg);
+    url(../images/hero.jpg);
   background-repeat: no-repeat;
 
   max-width: 1600px;
